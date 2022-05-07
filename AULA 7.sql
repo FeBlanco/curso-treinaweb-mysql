@@ -1,0 +1,9 @@
+CREATE FUNCTION fn_ola()
+RETURNS VARCHAR(10)
+  RETURN 'Ola';
+
+SELECT fn_ola();
+SELECT NOW();
+
+
+DROP FUNCTION fn_ola;
